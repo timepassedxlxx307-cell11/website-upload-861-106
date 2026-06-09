@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索-欧美影视盛宴</title>
+    <meta name="description" content="欧美最新在线影视盛宴，提供海量免费高清视频内容。包括最新电影、热门电视剧、经典影片、纪录片等精彩内容，随时随地尽情享受视觉盛宴。">
+    <meta name="keywords" content="搜索影视,在线搜索,欧美影视,在线视频,免费电影,高清视频,最新电影,热门电视剧,经典影片,纪录片,在线观看">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html" aria-label="欧美影视盛宴">
+                    <span class="brand-mark">▶</span>
+                    <span>欧美影视盛宴</span>
+                </a>
+                <nav class="desktop-nav" aria-label="主导航">
+                    <a href="index.html">首页</a>
+                    <a href="categories.html">分类</a>
+                    <a href="rankings.html">排行榜</a>
+                    <a href="category-hot-movies.html">热门电影</a>
+                    <a href="category-fresh-series.html">新剧速递</a>
+                    <a href="category-europe-us.html">欧美精选</a>
+                    <a href="category-global-cinema.html">全球佳片</a>
+                    <a href="category-action-suspense.html">动作悬疑</a>
+                    <a href="category-romance-drama.html">爱情剧情</a>
+                </nav>
+                <form class="header-search" action="search.html" method="get">
+                    <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+                    <button type="submit">搜索</button>
+                </form>
+                <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+            </div>
+            <div class="mobile-panel" data-mobile-panel>
+                <form class="mobile-search" action="search.html" method="get">
+                    <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+                    <button type="submit">搜索</button>
+                </form>
+                <nav aria-label="移动导航">
+                    <a href="index.html">首页</a>
+                    <a href="categories.html">分类</a>
+                    <a href="rankings.html">排行榜</a>
+                    <a href="category-hot-movies.html">热门电影</a>
+                    <a href="category-fresh-series.html">新剧速递</a>
+                    <a href="category-europe-us.html">欧美精选</a>
+                    <a href="category-global-cinema.html">全球佳片</a>
+                    <a href="category-action-suspense.html">动作悬疑</a>
+                    <a href="category-romance-drama.html">爱情剧情</a>
+                    <a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+                    <a href="category-history-war.html">历史战争</a>
+                    <a href="category-animation-docs.html">动画纪录</a>
+                    <a href="category-classic-choice.html">经典片库</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="page-hero slim-hero">
+                <div>
+                    <span class="eyebrow">SEARCH</span>
+                    <h1>搜索影视内容</h1>
+                    <p>输入片名、地区、年份、类型或标签，快速查找全站影片。</p>
+                </div>
+            </section>
+            <section class="content-section">
+                <div class="search-panel">
+                    <form action="search.html" method="get" class="large-search">
+                        <input type="search" name="q" data-search-input placeholder="输入关键词" aria-label="搜索关键词">
+                        <button type="submit">搜索</button>
+                    </form>
+                </div>
+                <div class="movie-grid" data-search-results></div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div>
+                    <a class="footer-brand" href="index.html">欧美影视盛宴</a>
+                    <p>欧美最新在线影视盛宴，提供海量免费高清视频内容。包括最新电影、热门电视剧、经典影片、纪录片等精彩内容，随时随地尽情享受视觉盛宴。</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="categories.html">分类总览</a>
+                    <a href="rankings.html">排行榜</a>
+                    <a href="search.html">搜索</a>
+                    <a href="category-hot-movies.html">热门电影</a>
+                    <a href="category-fresh-series.html">新剧速递</a>
+                    <a href="category-europe-us.html">欧美精选</a>
+                    <a href="category-global-cinema.html">全球佳片</a>
+                    <a href="category-action-suspense.html">动作悬疑</a>
+                    <a href="category-romance-drama.html">爱情剧情</a>
+                    <a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+                    <a href="category-history-war.html">历史战争</a>
+                    <a href="category-animation-docs.html">动画纪录</a>
+                    <a href="category-classic-choice.html">经典片库</a>
+                </div>
+            </div>
+            <div class="copyright">© 2026 欧美影视盛宴. All Rights Reserved.</div>
+        </footer>
+        <script src="assets/search-data.js"></script>
+        <script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
